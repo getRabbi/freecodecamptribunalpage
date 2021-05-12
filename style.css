@@ -1,0 +1,112 @@
+:root{
+    font-size: 12px;
+    
+}
+
+body{
+    font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.3;
+    margin: 0;
+    background-color: rgb(241, 222, 192);
+}
+main{
+    width: 100%;
+    height: auto;
+    
+}
+@media (max-width: 460px) {
+    .main {
+        margin: 0;
+    }
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+.headline h1{
+    font-weight: 500;
+    font-size: 30px;
+    font-style: oblique;
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px;
+}
+.headline p{
+    font-size: 14px;
+    padding-bottom: 15px;
+  
+}
+.headline{
+    text-align: center;
+    background-color: white;
+}
+.image {
+    width: 80%;
+    height: auto;
+    position: relative;
+    padding: 4px;
+    background: white;
+    margin: auto;
+}
+@media (max-width: 460px) {
+    .image {
+        font-size: 1.4rem;
+    }
+}
+.image-div {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+
+}
+
+figcaption{
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+section{
+    position: absolute;
+    margin: 0 55px 0 55px;
+    
+}
+section h3{
+    text-align: center;
+    border-bottom: 1px solid black;
+    display: block;
+    padding: 10px;
+    
+}
+.items{
+    text-align:inherit;
+    margin: 20px;
+}
+@media (max-width: 460px){
+    section{
+        width: 100%;
+        margin: 0;
+    }
+}
+.items li{
+    padding: 10px;
+}
+.link{
+    margin: 8%;
+}
+
